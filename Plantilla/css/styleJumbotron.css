@@ -1,0 +1,41 @@
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-color: #2874f0;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.jumbotron .font {
+	font: normal 80px 'Cookie', cursive;
+}
+
+.jumbotron .icon {
+	font-size: 50px
+}
+
+.contact {
+	width: 90%; 
+	margin: auto; 
+	padding: 40px 0px 0px 0px
+}
+
+.contact h3, .cursive {
+	color:  #2874f0;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+	text-align: center;
+}
+
+.contact .icon {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 60px;
+	color:  #33383b;
+}
+
+.contact .icon:hover {
+	color:  #2874f0;
+}

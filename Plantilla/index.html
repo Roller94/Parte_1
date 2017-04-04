@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+		<script src="js/app.js"></script>
+
+		<link rel="stylesheet" href="css/styleNavbar.css">
+		<link rel="stylesheet" href="css/styleJumbotron.css">
+		<link rel="stylesheet" href="css/styleList.css">
+		<link rel="stylesheet" href="css/styleProduct.css">
+		<link rel="stylesheet" href="css/styleFooter.css">
+		<title>Shopping CR</title>
+	</head>
+	<body>
+		
+		<header>
+			<div id="flipkart-navbar">
+				<div class="container">
+					<div class="row row2">
+						<div class="col-sm-3">
+							<h2 class="navbarText"><span class="smallnav menu" id="openNav"><i class="fa fa-navicon"></i>Shopping CR</span></h2>
+							<h1 class="navbarText"><span class="largenav"><a href="#">Shopping CR</a></span></h1>
+						</div>
+						<div class="flipkart-navbar-search smallsearch col-sm-7 col-xs-12">
+							<div class="row">
+								<input class="flipkart-navbar-input col-xs-11" type="text" placeholder="Search for Products, Brands and more" name="search">
+								<button class="flipkart-navbar-button col-xs-1">
+									<span class="iconsearch fa fa-search"></span>
+								</button>
+							</div>
+						</div>
+						<div class="cart largenav col-sm-2">
+							<a class="cart-button">
+								<span class="iconcart fa fa-shopping-cart"></span> Cart
+								<span class="item-number ">0</span>
+							</a>
+						</div>
+					</div>
+
+					<div class="row row1">
+						<ul class="largenav text-center">
+							<li class="upper-links"><a class="links" href="#!">Home</a></li>
+							<li class="upper-links"><a class="links" href="#!">Man</a></li>
+							<li class="upper-links"><a class="links" href="#!">Women</a></li>
+							<li class="upper-links"><a class="links" href="#!">kids</a></li>
+							<li class="upper-links"><a class="links" href="#!">Shoes</a></li>
+							<li class="upper-links"><a class="links" href="#!">Fashion</a></li>
+							<li class="upper-links"><a class="links" href="#!">Feature</a></li>
+							<li class="upper-links"><a class="links" href="#!">About</a></li>
+							<li class="upper-links"><a class="links" href="#!">Log In</a></li>
+							<!--<li class="upper-links dropdown"><a class="links" href="#!">My Account</a>
+								<ul class="dropdown-menu">
+									<li class="profile-li"><a class="profile-links" href="#!">My Order</a></li>
+									<li class="profile-li"><a class="profile-links" href="#!">Gift Card</a></li>
+									<li class="profile-li"><a class="profile-links" href="#!">Change Password </a></li>
+									<li class="profile-li"><a class="profile-links" href="#!">logout</a></li>
+								</ul>
+							</li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="mySidenav" class="sidenav">
+				<div class="container sidenavContent">
+					<span class="sidenav-heading">Shopping CR</span>
+					<a href="javascript:void(0)" class="closebtn" id="closeNav"><i class="fa fa-arrow-left"></i></a>
+				</div>
+				<ul>
+					<li><a class="links" href="#!"><i class="fa fa-home"></i> Home</a></li>
+					<li><a class="links" href="#!" id="categories"><i class="fa fa-tags"></i> Categories</a>
+						<ul id="listCategories" class="oculto">
+							<li><a class="links" href="#!"><i class="fa fa-male"></i>  Man</a></li>
+							<li><a class="links" href="#!"><i class="fa fa-female"></i>  Woman</a></li>
+							<li><a class="links" href="#!"><i class="fa fa-child"></i>  kids</a></li>
+							<li><a class="links" href="#!"><i class="fa fa-cube"></i>  Shoes</a></li>
+							<li><a class="links" href="#!"><i class="fa fa-shopping-bag"></i>  Fashion</a></li>
+							<li><a class="links" href="#!"><i class="fa fa-lightbulb-o"></i>  Feature</a></li> 								
+						</ul>
+					</li>
+					<li><a class="links" href="#!"><i class="fa fa-info-circle"></i> About</a></li>
+					<li><a class="links" href="#!"><i class="fa fa-sign-in"></i> Log In</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<div id="contenedor">				
+		
+			<div class="jumbotron jumbotron-fluid">	
+				<div class="container text-center">
+					<h1 class="font">Welcome to Shopping</h1>
+					<p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit asdqet.</i></p>
+					<br>
+					<i class="fa fa-diamond icon"></i>
+					<br><br>
+				</div>
+			</div>
+			
+			<div class="container slide">
+				<div class="listImages">
+					<h1 class="text-center">Most Popular</h1>
+					<hr>
+					<div id="products" class="row list-group">
+						<div class="item col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<div class="thumbnail">
+								<a href="#!" class="view"><img class="ihover group list-group-image" src="images/camisa.jpg" alt="" /></a>
+								<div class="caption">
+									<h4 class="group inner list-group-item-heading">
+										Product title</h4>
+									<p class="group inner list-group-item-text">
+										Product description...</p>
+									<div class="row">
+										<div class="col-xs-12 col-md-6">
+											<p class="lead">
+												$21.000</p>
+										</div>
+										<div class="col-xs-12 col-md-6 text-right">
+											<a class="buttonAdd" href="#!"><span class="fa fa-shopping-cart"></span><b>Add</b></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<div class="thumbnail">
+								<a href="#!" class="view"><img class="ihover group list-group-image" src="images/blusa.jpg" alt="" /></a>
+								<div class="caption">
+									<h4 class="group inner list-group-item-heading">
+										Product title</h4>
+									<p class="group inner list-group-item-text">
+										Product description...</p>
+									<div class="row">
+										<div class="col-xs-12 col-md-6">
+											<p class="lead">
+												$21.000</p>
+										</div>
+										<div class="col-xs-12 col-md-6 text-right">
+											<a class="buttonAdd" href="#!"><span class="fa fa-shopping-cart"></span><b>Add</b></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<div class="thumbnail">
+								<a href="#!" class="view"><img class="ihover group list-group-image" src="images/abrigo.jpg" alt="" /></a>
+								<div class="caption">
+									<h4 class="group inner list-group-item-heading">
+										Product title</h4>
+									<p class="group inner list-group-item-text">
+										Product description...</p>
+									<div class="row">
+										<div class="col-xs-12 col-md-6">
+											<p class="lead">
+												$21.000</p>
+										</div>
+										<div class="col-xs-12 col-md-6 text-right">
+											<a class="buttonAdd" href="#!"><span class="fa fa-shopping-cart"></span><b>Add</b></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<div class="thumbnail">
+								<a href="#!" class="view"><img class="ihover group list-group-image" src="images/blusa2.jpg" alt="" /></a>
+								<div class="caption">
+									<h4 class="group inner list-group-item-heading">
+										Product title</h4>
+									<p class="group inner list-group-item-text">
+										Product description...</p>
+									<div class="row">
+										<div class="col-xs-12 col-md-6">
+											<p class="lead">
+												$21.000</p>
+										</div>
+										<div class="col-xs-12 col-md-6 text-right">
+											<a class="buttonAdd" href="#!"><span class="fa fa-shopping-cart"></span><b>Add</b></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--  -->
+				
+				<div class="listImages text-center">
+					<h1>Fashion Styles</h1>
+					<hr>
+					<div id="fashionOptions" class="row list-group">
+						<div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<div class="thumbnail">
+								<div class="jumbotron menImage">
+									<strong>Man</strong>
+								</div>
+							</div>
+						</div>
+						<div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<div class="thumbnail">
+								<div class="jumbotron womenImage">
+									<strong>Women</strong>
+								</div>
+							</div>
+						</div>
+						<div class="item col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="thumbnail">
+								<div class="jumbotron shoesImage">
+									<strong>Shoes</strong>
+								</div>
+							</div>
+						</div>
+						<div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<div class="thumbnail">
+								<div class="jumbotron kidsImage">
+									<strong>Kids</strong>
+								</div>
+							</div>
+						</div>
+						<div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<div class="thumbnail">
+								<div class="jumbotron featureImage">
+									<strong>Feature</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="text-center">
+				<h1 class="cursive">Subscribe to send new offers</h1>
+				<form class="form-horizontal subscribe">
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" class="form-control flipkart-navbar-input text-center" id="name" placeholder="Name">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="email" class="form-control flipkart-navbar-input text-center" id="email" placeholder="Email">
+						</div>
+					</div>					
+					<div class="form-group"> 
+						<div class="col-md-12 text-center">
+						  	<button type="submit" class="cart-button"><b>Subscribe</b></button>
+						</div>
+					</div>
+				</form>
+			</div>
+
+		</div>
+
+		<footer class="container footer-distributed">
+			<div class="footer-left">
+				<h3>Shopping<span> CR</span></h3>
+				<p class="footer-links">
+					<a href="#">Man</a>		·
+					<a href="#">Woman</a>	·
+					<a href="#">Kids</a>	·
+					<a href="#">Shoes</a>	·
+					<a href="#">Fashion</a>	·
+					<a href="#">Feature</a>
+				</p>
+				
+				<div class="footer-icons">					
+					<a href="#"><i class="fa fa-cc-mastercard"></i></a>
+					<a href="#"><i class="fa fa-cc-visa"></i></a>
+					<a href="#"><i class="fa fa-cc-amex"></i></a>
+					<a href="#"><i class="fa fa-credit-card-alt"></i></a>
+				</div>
+			</div>
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>21 Revolution Street</span> San José, Costa Rica</p>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+506 2222-2222</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:info@company.com">info@shopcr.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus.
+				</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-pinterest"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="footerLine text-center">
+				<p class="footer-company-name">Shopping CR &copy; 2017</p>
+			</div>
+		</footer>
+
+	</body>
+</html>
